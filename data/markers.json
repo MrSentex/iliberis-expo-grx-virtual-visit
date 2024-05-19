@@ -1,0 +1,22 @@
+[
+    {
+        "coords": [-97.24, 31.12],
+        "label": "Sala 1",
+        "targetModal": "room_1"
+    },
+    {
+        "coords": [-92.02, 31.12],
+        "label": "Sala 2",
+        "targetModal": "room_2"
+    },
+    {
+        "coords": [-86.82, 31.12],
+        "label": "Sala 3",
+        "targetModal": "room_3"
+    },
+    {
+        "coords": [-92.02, 27.12],
+        "label": "Acceso",
+        "targetModal": "room_access"
+    }
+]

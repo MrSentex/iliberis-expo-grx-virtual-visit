@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+}
+
+:root {
+    --bs-body-bg: #262626;
+    --bs-body-color: #f1e448;
+    --bs-body-font-family: "Poppins", sans-serif;
+}
+
+.loading-screen {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--bs-body-bg);
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-marker {
+    font-family: var(--bs-body-font-family);
+    font-size: 3rem;
+
+    font-weight: 800;
+    font-style: italic;
+
+    text-shadow: 0 0 5px black;
+}
+
+.text-marker[clickable=true] {
+    cursor: pointer;
+}
+
+.text-marker[clickable=true]:hover {
+    text-shadow: 0 0 8px black;
+}
+
+.modal-body img {
+    border-radius: 5px;
+}
+
+.carousel.pointer-event {
+    touch-action: pan-y pinch-zoom;
+}
